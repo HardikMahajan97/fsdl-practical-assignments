@@ -56,8 +56,10 @@ This repository contains all the practical assignments completed as part of the 
 
 ## GitHub Repository
 
-**Repository:** *Add GitHub repository link here*
+**Repository:** [https://github.com/HardikMahajan97/fsdl-practical-assignments.git](https://github.com/HardikMahajan97/fsdl-practical-assignments.git)
 
+
+**Portfolio Repository:** [https://github.com/HardikMahajan97/portfolio.git](https://github.com/HardikMahajan97/portfolio.git)
 ---
 
 ## Folder Structure
