@@ -65,18 +65,55 @@ This repository contains all the practical assignments completed as part of the 
 ## Folder Structure
 
 ```text
-FSDL Practical Assignments/
-├── portfolio Assignment 2
-├── Raretifact Assignment 3
-├── Task-y Assignment 4
-├── Student Resource Management System Assignment 5
-├── Attendance Management System Assignment 6
-├── Assignment 7
-├── Assignment 8 Mini Project (PlayWise)
+fsdl-practical-assignments/
+
+│
+├── Assignment-02/
+│   ├── Portfolio Website/
+│   ├── output-screenshots/
+│   └── README.md
+│
+├── Assignment-03/
+│   ├── Raretifact/
+│   ├── output-screenshots/
+│   └── README.md
+│
+├── Assignment-04/
+│   ├── Task-y/
+│   ├── output-screenshots/
+│   └── README.md
+│
+├── Assignment-05/
+│   ├── Student Resource Management System/
+│   │   ├── backend/
+│   │   └── frontend/
+│   ├── output-screenshots/
+│   └── README.md
+│
+├── Assignment-06/
+│   ├── Attendance Management System/
+│   │   ├── backend/
+│   │   └── frontend/
+│   ├── output-screenshots/
+│   └── README.md
+│
+├── Assignment-07/
+│   ├── user_store/
+│   ├── user_store-app/
+│   ├── output-screenshots/
+│   └── README.md
+│
+├── Assignment-08/
+│   ├── PlayWise/
+│   │   ├── backend/
+│   │   ├── frontend/
+│   │   ├── output-screenshots/
+│   │   └── README.md
+│   ├── output-screenshots/
+│   └── README.md
+│
 └── README.md
 ```
-
----
 
 ## Author
 
