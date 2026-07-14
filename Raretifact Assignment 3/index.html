@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raretifact - Rare Artifacts Emporium</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="bg-animated">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="#">
+                <span class="brand-icon">⚱</span>
+                Raretifact
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">
+                            <span class="nav-text">Home</span>
+                            <span class="nav-line"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#collection">
+                            <span class="nav-text">Collection</span>
+                            <span class="nav-line"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <span class="nav-text">Legacy</span>
+                            <span class="nav-line"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cart-trigger" href="#" id="cartToggle">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-badge" id="cartCount">0</span>
+                            <span class="cart-pulse"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-75">
+                <div class="col-lg-7">
+                    <div class="hero-content">
+                        <div class="hero-subtitle">Est. 1842</div>
+                        <p class="hero-description">
+                            Curated artifacts from the world's greatest civilizations. 
+                            Each piece authenticated, documented, and steeped in history.
+                        </p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">180+</div>
+                                <div class="stat-label">Years Legacy</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <div class="stat-number">2,500+</div>
+                                <div class="stat-label">Artifacts Sold</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <div class="stat-number">100%</div>
+                                <div class="stat-label">Authenticated</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Featured Facts Section -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Curated Insights</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Fascinating facts from the ancient world</p>
+            </div>
+            
+            <div class="featured-grid">
+                <div class="fact-item">
+                    <i class="fas fa-crown fact-icon"></i>
+                    <h3 class="fact-title">The Golden Mask</h3>
+                    <p class="fact-description">
+                        King Tutankhamun's burial mask contains 22 pounds of gold and is valued at over $2 million, making it one of the most valuable artifacts ever discovered.
+                    </p>
+                    <p class="fact-year">Discovered 1922</p>
+                </div>
+                
+                <div class="fact-item">
+                    <i class="fas fa-scroll fact-icon"></i>
+                    <h3 class="fact-title">Dead Sea Scrolls</h3>
+                    <p class="fact-description">
+                        These ancient manuscripts, dating from 300 BCE to 100 CE, are among the oldest surviving copies of biblical texts, preserved in clay jars for over 2,000 years.
+                    </p>
+                    <p class="fact-year">Discovered 1947</p>
+                </div>
+                
+                <div class="fact-item">
+                    <i class="fas fa-gem fact-icon"></i>
+                    <h3 class="fact-title">Rosetta Stone</h3>
+                    <p class="fact-description">
+                        This granodiorite stele became the key to deciphering Egyptian hieroglyphs, written in three scripts: Ancient Greek, Demotic, and Hieroglyphic.
+                    </p>
+                    <p class="fact-year">Discovered 1799</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section" id="collection">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">Our Collection</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Browse artifacts by ancient civilization</p>
+            </div>
+            
+            <div class="filter-wrapper">
+                <button class="filter-btn active" data-filter="all">
+                    <span class="filter-icon">◈</span>
+                    <span>All Treasures</span>
+                </button>
+                <button class="filter-btn" data-filter="egyptian">
+                    <span class="filter-icon">𓀀</span>
+                    <span>Egyptian</span>
+                </button>
+                <button class="filter-btn" data-filter="roman">
+                    <span class="filter-icon">⚔</span>
+                    <span>Roman</span>
+                </button>
+                <button class="filter-btn" data-filter="greek">
+                    <span class="filter-icon">Ω</span>
+                    <span>Greek</span>
+                </button>
+                <button class="filter-btn" data-filter="mesopotamian">
+                    <span class="filter-icon">𒀭</span>
+                    <span>Mesopotamian</span>
+                </button>
+                <button class="filter-btn" data-filter="asian">
+                    <span class="filter-icon">龍</span>
+                    <span>Asian</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container-fluid px-4">
+            <div class="products-grid" id="productsContainer">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-overlay" id="cartOverlay"></div>
+        <div class="cart-panel">
+            <div class="cart-header">
+                <h3>
+                    <i class="fas fa-crown"></i>
+                    Your Collection
+                </h3>
+                <button class="cart-close" id="cartClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="cart-items" id="cartItemsContainer">
+                <!-- Cart items will be inserted here -->
+            </div>
+            
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <div class="total-label">Total Value</div>
+                    <div class="total-amount" id="cartTotal">$0</div>
+                </div>
+                <button class="btn-checkout" onclick="openCheckoutModal()">
+                    <span>Proceed to Acquisition</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal" id="checkoutModal">
+        <div class="checkout-content">
+            <div class="checkout-header">
+                <h2>Review Your Acquisition</h2>
+                <p>Confirm your selection of these precious artifacts</p>
+            </div>
+            
+            <div class="checkout-items" id="checkoutItemsList">
+                <!-- Items will be inserted here -->
+            </div>
+            
+            <div class="checkout-total">
+                <div class="checkout-total-row">
+                    <span>Subtotal</span>
+                    <span id="checkoutSubtotal">$0</span>
+                </div>
+                <div class="checkout-total-row">
+                    <span>Authentication & Documentation</span>
+                    <span>$500</span>
+                </div>
+                <div class="checkout-total-row">
+                    <span>Secure Shipping</span>
+                    <span>$250</span>
+                </div>
+                <div class="checkout-total-row final">
+                    <span>Total</span>
+                    <span id="checkoutFinalTotal">$0</span>
+                </div>
+            </div>
+            
+            <div class="checkout-actions">
+                <button class="btn-checkout-cancel" onclick="closeCheckoutModal()">
+                    Cancel
+                </button>
+                <button class="btn-checkout-confirm" onclick="confirmCheckout()">
+                    <i class="fas fa-check-circle"></i> Confirm Acquisition
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div class="confirmation-modal" id="confirmationModal">
+        <div class="confirmation-content">
+            <div class="confirmation-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2 class="confirmation-title">Acquisition Confirmed!</h2>
+            <p class="confirmation-message">
+                Your precious artifacts have been successfully acquired and are being prepared for authentication and secure delivery.
+            </p>
+            <div class="confirmation-order-number">
+                <div>Order Reference</div>
+                <div class="order-number" id="orderNumber">ANT-000000</div>
+            </div>
+            <p class="confirmation-message">
+                Our expert team will contact you within 24-48 hours to arrange secure delivery and provide complete provenance documentation.
+            </p>
+            <button class="btn-confirmation-close" onclick="closeConfirmationModal()">
+                Continue Exploring
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <h3>⚱ Raretifact</h3>
+                        <p>Preserving the legacy of ancient civilizations through authenticated artifacts and scholarly expertise. Established 1842.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="footer-title">Explore</h5>
+                    <ul class="footer-links">
+                        <li><a href="#collection">Collections</a></li>
+                        <li><a href="#">Authenticity</a></li>
+                        <li><a href="#">Acquisitions</a></li>
+                        <li><a href="#">Exhibitions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="footer-title">Support</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Insurance</a></li>
+                        <li><a href="#">Appraisals</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="footer-title">Connect</h5>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <div class="newsletter mt-4">
+                        <input type="email" class="newsletter-input" placeholder="Your email">
+                        <button class="newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Raretifact. All artifacts authenticated and documented.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon theme-icon" id="themeIcon"></i>
+        <span class="theme-label" id="themeLabel">Light Mode</span>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

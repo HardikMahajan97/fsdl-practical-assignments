@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardik Mahajan - Full Stack Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel = "stylesheet" href="styles.css" >
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">HM</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- Theme Toggle Button -->
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-sun sun-icon"></i>
+                <i class="fas fa-moon moon-icon"></i>
+            </button>
+            <div class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="gradient-text">Hardik Mahajan</span></h1>
+                <p>Full Stack Developer passionate about building scalable web applications and innovative solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-folder-open"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="window-title">portfolio.js</span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code><span class="code-keyword">const</span> <span class="code-var">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">'Hardik Mahajan'</span>,
+  <span class="code-property">skills</span>: [<span class="code-string">'React'</span>, <span class="code-string">'Node'</span>, <span class="code-string">'Java'</span>],
+  <span class="code-property">passion</span>: <span class="code-string">'Building Solutions'</span>,
+  <span class="code-keyword">code</span>: <span class="code-function">() => {</span>
+    <span class="code-keyword">console</span>.<span class="code-method">log</span>(<span class="code-string">'Let\'s build!'</span>);
+  }
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Full Stack Developer with expertise in modern web technologies. I specialize in building responsive, user-friendly applications that solve real-world problems.</p>
+                    <p>With a strong foundation in both frontend and backend development, I enjoy working on challenging projects that push my skills to the next level.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">1+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+<section class="section" id="experience">
+    <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+            <!-- Experience 1: ParikSaathi -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Backend Developer Intern</h3>
+                    <p class="timeline-company">ParikSaathi</p>
+                    <p class="timeline-date">May 2025 - Aug 2025</p>
+                    <p>Architected and developed two <strong>microservice-based systems</strong> using Spring Boot, handling over <strong>10,000+ data entries</strong> efficiently. Achieved a remarkable <strong>98% performance improvement</strong> by optimizing database queries and eliminating N+1 query issues. Developed a robust admin panel backend and enhanced the email notification system to deliver bulk messages to <strong>1,000+ users</strong> seamlessly. Collaborated closely with the frontend team to deliver high-performance RESTful APIs.</p>
+                </div>
+            </div>
+
+            <!-- Experience 2: PCCOE ACM Club -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Webmaster</h3>
+                    <p class="timeline-company">PCCOE ACM Student Chapter</p>
+                    <p class="timeline-date">Sep 2024 - Apr 2025</p>
+                    <p>Led the development of the official club website using <strong>React and Tailwind CSS</strong>, creating an elegant and responsive user interface. Restructured and optimized the codebase architecture, <strong>reducing code size by 10%</strong> while maintaining functionality. Implemented <strong>progressive image rendering techniques</strong> that cut page load time by <strong>40%</strong>, significantly enhancing user experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Tailwind</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Agile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PlayWise</h3>
+                        <p class="project-description">
+                            An online booking platform for Shuttlers that allows them to book a court and slot on their desired date.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://playwise-frontend.vercel.app/" class="project-link"><i class="fas fa-external-link-alt"></i> PlayWise</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>hardikmahajan97@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 7249461177</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Pune, Maharashtra</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/HardikMahajan97" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/hardik-mahajan-03687728a/" class="social-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024 Hardik Mahajan. All rights reserved.</p>
+    </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
