@@ -1,0 +1,11 @@
+roll_number,student_name,parent_name,parent_email,class,section,overall_attendance,Mathematics_total,Mathematics_attended,Physics_total,Physics_attended,Chemistry_total,Chemistry_attended,English_total,English_attended
+01,Aditya Verma,Mr. Suresh Verma,hardik.mahajan23@pccoepune.org,X,A,92.5,40,38,40,36,40,37,40,36
+02,Bhavna Singh,Mrs. Priya Singh,hardik.mahajan23@pccoepune.org,X,A,78.3,40,32,40,31,40,30,40,32
+03,Chirag Mehta,Mr. Anand Mehta,hardik.mahajan23@pccoepune.org,X,A,61.2,40,24,40,25,40,22,40,26
+04,Divya Nair,Mrs. Lakshmi Nair,hardik.mahajan23@pccoepune.org,X,A,88.0,40,36,40,35,40,34,40,35
+05,Eshan Kapoor,Mr. Deepak Kapoor,hardik.mahajan23@pccoepune.org,X,A,55.8,40,20,40,22,40,21,40,23
+06,Fatima Shaikh,Mr. Irfan Shaikh,hardik.mahajan23@pccoepune.org,X,A,95.0,40,39,40,38,40,38,40,38
+07,Gaurav Joshi,Mrs. Sunita Joshi,hardik.mahajan23@pccoepune.org,X,A,68.4,40,27,40,28,40,26,40,29
+08,Harleen Kaur,Mr. Gurpreet Singh,hardik.mahajan23@pccoepune.org,X,A,82.5,40,33,40,34,40,32,40,33
+09,Ishaan Tiwari,Mr. Ramesh Tiwari,hardik.mahajan23@pccoepune.org,X,A,45.2,40,17,40,18,40,16,40,19
+10,Jasmine DSouza,Mr. Dennis DSouza,hardik.mahajan23@pccoepune.org,X,A,90.0,40,36,40,36,40,36,40,36

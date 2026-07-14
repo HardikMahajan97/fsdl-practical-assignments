@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;   /* Ensure both html and body take up the full height */
+  margin: 0;      /* Remove any default margins */
+  padding: 0;     /* Remove any default padding */
+  font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+          "wdth" 100;
+
+}
