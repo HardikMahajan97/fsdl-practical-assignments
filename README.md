@@ -4,7 +4,7 @@
 
 - **Name:** Hardik Mahajan
 - **Roll No:** 123B1B130
-- **Class:** B
+- **Class:** B.Tech-B
 - **Subject:** DevOps
 
 ---
